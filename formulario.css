@@ -1,0 +1,93 @@
+
+#principal{
+    justify-content: center;
+
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    
+    
+
+}
+
+header :hover{
+
+    color: blueviolet;
+
+}
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+
+a:hover{
+    color: red;
+
+}
+
+
+hr{
+    background-color : black;
+    height: 10px;
+    margin-bottom: 50px;
+    
+
+}
+/* formato tabla */
+
+table, th, td{
+    
+    border:black solid;
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    margin-bottom: 50px;
+}
+
+
+.tabla{
+    
+    border: solid;
+    font-size: 20px;    
+    margin-bottom: 50px;
+    
+   
+
+   clear: right; 
+
+}
+.tablaprof{
+    
+    border: solid;
+    font-size: 20px;    
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+    
+   
+
+   clear: right; 
+
+}
+
+#lista{
+
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+#cabeza{
+
+    font-weight: bold;
+    font-size: 1.3em;
+}
+

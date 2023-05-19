@@ -3,9 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
     <title>Ejercicio3</title>
+    
 </head>
 <body>
+
+    <header> 
+        <h1> <a href ="https://institutotecnologico.edix.com">Instituto Tecnológico Edix </a></h1>
+
+    </header>
+
+    <section id="principal">
+
+        <article>
+            <table class="tabla"> 
+                <thead><H2>Jefes</H2></thead>
+                    <thead>
+                        <tr>
+                           <th>Nombre</th>
+                           <th>Despacho</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chon</td>
+                            <td>Numero 31 , 3ª Planta, Edificio A</td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <td>Daniel</td>
+                            <td>numero 3 dadwa</td>
+                        </tr>
+                    </tbody>
+
+    
+            </table>
+
+            <hr/>
+        </article>
+            <div id="lista">
+                <ol>
+                    <li><h3>ASIR</h3>
+                        <ul> 
+                            <li>Administración de Sistemas Informáticos en Red</li>
+                            <li> Superior</li>
+                            <li>Titulo año="2009"</li>
+                        </ul>
+                        
+                    </li>
+                    <li><h3> DAM</h3>
+                            <br/>
+                            <ul>
+                                <li><a href="https://unirfp.unir.net/ingenieria/fp-grado-daw-desarrollo-de-aplicaciones-web/">Desarrollo de Aplicaciones Multiplataforma</a></li>
+                                <li>Superior</li>
+                                <li>Titulo año="2010"</li>
+                            </ul>
+
+                    </li>
+                    <li> <h3> DAW</h3>
+                        <br/>
+                        <ul>
+                            <li><a href="https://unirfp.unir.net/ingenieria/fp-grado-desarrollo-aplicaciones-multiplataforma-dam/">Desarrollo de Aplicaciones Web</a></li>
+                            <li>Superior</li>
+                            <li>Titulo año="2010"</li>
+                        </ul></li>
+                </ol>
+            </div>
+            <hr/>
+
+            <div class="tablas">
+            <table class="tabla">
+                <thead>
+                    <h2>Profesores</h2>
+                </thead>
+                <thead>
+                    <tr>
+                        <td>id</td>
+                        <td>Nombre</td>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>T</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <hr/>
+        <fieldset class="former">
+        <legend id="cabeza">Formulario de contacto</legend>
+
+        <form action="procesarPeticion.jsp" method="get">
+        <label for="nombre"> Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="su nombre"/>
+            <br/>
+            <br/>
+        <label for="apellidos"> Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Su apellido"/>
+            <br/><br/>
+            <label for="fechaNac">Fecha nacimiento</label>
+                <input type="date" name="fechaNac" id="fechaNac"/>
+            <br/><br/>
+            <label for="modulo">FP a elegir</label><br/>
+                <input type="radio" name="modulo" value="ASIR"/>ASIR <br/>
+                <input type="radio" name="modulo" value="DAW"/>DAW <br/>
+                <input type="radio" name="modulo" value="DAM"/>DAM<br/>
+                <br/>	
+                <input type="submit" value="Enviar datos" />
+                
+        </form>
+        </fieldset>
+
+    </section>
+
     
 </body>
 </html>
